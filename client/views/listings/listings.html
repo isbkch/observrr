@@ -1,0 +1,18 @@
+<template name="listings">
+  
+  <div class="row">
+  	
+  	<div class="col-lg-6">
+      <div class="bs-component">
+        <h2>Job Listings</h2>
+        <ul>
+        	{{#each jobs}}
+    	    	<li class="text-muted">{{title}}</li>
+    			{{/each}}
+    		</ul>
+      </div>
+    </div>
+
+  </div>
+
+</template>
